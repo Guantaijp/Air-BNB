@@ -8,6 +8,7 @@ import AccountPage from './components/AccountPage';
 import AddBnb from './components/AddBnb';
 import About from './components/About';
 import Booking from './components/Booking';
+import NavBar from './components/NavBar';
 
 
 function App() {
@@ -26,8 +27,13 @@ function App() {
 
 
   return (
+
+    
    <>
+
+ 
     <BrowserRouter>
+    <NavBar/>
       <Routes>
       <Route path="/" element={<Navigate to="/home"/>} />
       <Route path="/home" element={<HomePage/>}/>

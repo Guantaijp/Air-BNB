@@ -35,16 +35,15 @@ function AccountPage() {
     <User/>
     <div className="account-page mt-5 pt-5">
       <h2 className="text-center mb-4">Account Details</h2>
- 
-      <div className="container mx-auto text-center row p-1 ">
-            <table className="table table-striped table-hover table-bordered col-12">
+      <div className="">
+            <table className="table">
                 <thead>
                     <tr>
-                        <th scope="col">AirBnb</th>
-                        <th scope="col">User</th>
-                        <th scope="col">Comments</th>
-                        <th scope="col">Rating</th>
-                        <th scope="col">Delete</th>
+                        <th scope="">AirBnb</th>
+                        <th scope="">User</th>
+                        <th scope="">Comments</th>
+                        <th scope="">Rating</th>
+                        <th scope="">Delete</th>
                     </tr>
                 </thead>
                 <tbody>
